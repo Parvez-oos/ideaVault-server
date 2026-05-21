@@ -16,7 +16,7 @@ const PORT = process.env.PORT || 5000;
 
 // Middlewares
 app.use(cors({
-    origin: ['http://localhost:3000', 'YOUR_VERCEL_LIVE_LINK_HERE'], // Update later
+    origin: ['http://localhost:3000', 'https://idea-vault-client-kappa.vercel.app'], // Update later
     credentials: true
 }));
 app.use(express.json());
